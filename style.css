@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 80px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.navbar-container, .button-group  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 0px 20px;
+}
+
+.list-item:hover, li:first-child {
+    font-weight: bolder;
+    border-bottom: 2px solid #000;
+}
+
+nav div img {
+    width: 100px;
+}
+
+.nav-button {
+    margin-left:10px ;
+    padding: 8px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.square img{
+    position: relative;
+    top: 250px;
+    left: 120px;
+    height: 250px;
+    width: 250px;
+}
+.hero-container {
+    position: relative;
+    margin-top: 40px;
+}
+.hero-image img {
+    position: relative;
+    bottom: 200px;
+    height: 400px;
+}
+.star img {
+    position: absolute;
+    left: 1100px;
+    top: 50px;
+    height: 40px;
+}
+
+.globe img {
+    position: absolute;
+    left: 670px;
+    top: 25px;
+    height: 40px;
+}
+
+.hero-container-right {
+    width: 65%;
+    float: right;
+    text-align: center;
+    margin-top: -550px;
+    
+}
+
+.hero-heading {
+    font-size: 45px;
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    width: 480px;
+    margin: auto;
+    color: #807b7b;
+    margin-bottom: 50px;
+}
+
+.button-email {
+    font-family: "Orbitron", sans-serif;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.button-join {
+    font-family: "Orbitron", sans-serif;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.contact-heading {
+    font-family: "Poppins", sans-serif;
+    color: #807b7b;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.icons img{
+    height: 25px;
+    margin-top: -25px;
+    margin-right: 5px;
+}
